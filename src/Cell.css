@@ -1,0 +1,18 @@
+@keyFrames light {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.Cell {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: darkgray;
+  cursor: pointer;
+}
+
+.Cell-lit {
+  background: radial-gradient(#f54236, #ff8780);
+  animation-name: light;
+  animation-duration: 1.5s;
+}
